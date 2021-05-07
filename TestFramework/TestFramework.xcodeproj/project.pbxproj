@@ -16,6 +16,10 @@
 		BE5B87B1264537F600A55723 /* Sub.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5B87AF264537F600A55723 /* Sub.m */; };
 		BE5B87B7264538F900A55723 /* Dog.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5B87B5264538F900A55723 /* Dog.h */; };
 		BE5B87B8264538F900A55723 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5B87B6264538F900A55723 /* Dog.m */; };
+		BE5B87E72645458500A55723 /* CTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5B87E52645458500A55723 /* CTest.h */; };
+		BE5B87E82645458500A55723 /* CTest.c in Sources */ = {isa = PBXBuildFile; fileRef = BE5B87E62645458500A55723 /* CTest.c */; };
+		BE5B87EC264546CB00A55723 /* Cat.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5B87EA264546CB00A55723 /* Cat.h */; };
+		BE5B87ED264546CB00A55723 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5B87EB264546CB00A55723 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		BE5B87B4264538E700A55723 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		BE5B87B5264538F900A55723 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		BE5B87B6264538F900A55723 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		BE5B87E52645458500A55723 /* CTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTest.h; sourceTree = "<group>"; };
+		BE5B87E62645458500A55723 /* CTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CTest.c; sourceTree = "<group>"; };
+		BE5B87EA264546CB00A55723 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		BE5B87EB264546CB00A55723 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				BE5B87B4264538E700A55723 /* module.modulemap */,
 				BE5B87B5264538F900A55723 /* Dog.h */,
 				BE5B87B6264538F900A55723 /* Dog.m */,
+				BE5B87E52645458500A55723 /* CTest.h */,
+				BE5B87E62645458500A55723 /* CTest.c */,
+				BE5B87EA264546CB00A55723 /* Cat.h */,
+				BE5B87EB264546CB00A55723 /* Cat.m */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -109,10 +121,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5B87E72645458500A55723 /* CTest.h in Headers */,
 				BE5B878F2645250800A55723 /* TestFramework.h in Headers */,
 				BE5B87B0264537F600A55723 /* Sub.h in Headers */,
 				BE5B87B7264538F900A55723 /* Dog.h in Headers */,
 				BE5B8799264525B500A55723 /* Test.swift in Headers */,
+				BE5B87EC264546CB00A55723 /* Cat.h in Headers */,
 				BE5B87A02645269D00A55723 /* OCTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,9 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5B87ED264546CB00A55723 /* Cat.m in Sources */,
 				BE5B87B1264537F600A55723 /* Sub.m in Sources */,
 				BE5B87972645255D00A55723 /* Test.swift in Sources */,
 				BE5B87B8264538F900A55723 /* Dog.m in Sources */,
+				BE5B87E82645458500A55723 /* CTest.c in Sources */,
 				BE5B87A12645269D00A55723 /* OCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

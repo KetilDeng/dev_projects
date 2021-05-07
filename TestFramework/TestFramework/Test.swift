@@ -9,6 +9,9 @@ import Foundation
 import Others
 //import Others.Sub
 import Vendor
+//import Vendor.CFile
+//import Vendor.OCFile
+
 public class Test {
     public func hello() {
         print("instance hello world")

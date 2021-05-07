@@ -15,11 +15,13 @@ module Others {
     module Sub {
         export *
         umbrella "../Others/Sub"
+        link "Sub"
         module * { export * }
     }
 }
 
 
+// 整个项目
 //module All {
 //
 //    export *

@@ -6,6 +6,19 @@
 //
 
 module Vendor {
-    header "Dog.h"
-    export *
+    // c file
+    module CFile {
+        header "CTest.h"
+        link "CFile"
+        export *
+    }
+    
+    // oc file
+    module OCFile {
+        requires objc //包含c需要加objc
+        header "Dog.h"
+        header "Cat.h"
+        link "OCFile"
+        export *
+    }
 }
