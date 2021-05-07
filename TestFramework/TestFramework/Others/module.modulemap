@@ -1,0 +1,29 @@
+//
+//  module.modulemap
+//  TestFramework
+//
+//  Created by testuser on 2021/5/7.
+//
+
+module Others {
+
+    header "../Others/OCTest.h"
+//    header "../Others/Sub/Sub.h"//直接导出
+    export *
+
+    //导出子模块
+    module Sub {
+        export *
+        umbrella "../Others/Sub"
+        module * { export * }
+    }
+}
+
+
+//module All {
+//
+//    export *
+//    umbrella ".."
+//    module * { export * }
+//}
+

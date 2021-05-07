@@ -1,0 +1,11 @@
+//
+//  module.modulemap
+//  TestFramework
+//
+//  Created by testuser on 2021/5/7.
+//
+
+module Vendor {
+    header "Dog.h"
+    export *
+}

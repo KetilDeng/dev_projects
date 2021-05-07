@@ -20,6 +20,10 @@
 		BE31D15D261D896300537DB7 /* Cat.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31D15B261D896300537DB7 /* Cat.h */; };
 		BE31D15E261D896300537DB7 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31D15C261D896300537DB7 /* Cat.m */; };
 		BE3CE6B7262D7B660085AD29 /* ATAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3CE6B6262D7B660085AD29 /* ATAuthSDK.framework */; };
+		BE5B86F5264514CE00A55723 /* CTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5B86F3264514CE00A55723 /* CTest.h */; };
+		BE5B86F6264514CE00A55723 /* CTest.c in Sources */ = {isa = PBXBuildFile; fileRef = BE5B86F4264514CE00A55723 /* CTest.c */; };
+		BE5B86FB2645151A00A55723 /* CPulsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE5B86F92645151A00A55723 /* CPulsTest.cpp */; };
+		BE5B86FC2645151A00A55723 /* CPulsTest.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BE5B86FA2645151A00A55723 /* CPulsTest.hpp */; };
 		BE812D6E26438FF100A5DB45 /* Animal.h in Headers */ = {isa = PBXBuildFile; fileRef = BE812D6C26438FF100A5DB45 /* Animal.h */; };
 		BE812D6F26438FF100A5DB45 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = BE812D6D26438FF100A5DB45 /* Animal.m */; };
 		BE812D742643902A00A5DB45 /* Dog.h in Headers */ = {isa = PBXBuildFile; fileRef = BE812D722643902A00A5DB45 /* Dog.h */; };
@@ -44,6 +48,10 @@
 		BE31D15B261D896300537DB7 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		BE31D15C261D896300537DB7 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		BE3CE6B6262D7B660085AD29 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAuthSDK.framework; sourceTree = "<group>"; };
+		BE5B86F3264514CE00A55723 /* CTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTest.h; sourceTree = "<group>"; };
+		BE5B86F4264514CE00A55723 /* CTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CTest.c; sourceTree = "<group>"; };
+		BE5B86F92645151A00A55723 /* CPulsTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPulsTest.cpp; sourceTree = "<group>"; };
+		BE5B86FA2645151A00A55723 /* CPulsTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPulsTest.hpp; sourceTree = "<group>"; };
 		BE812D6C26438FF100A5DB45 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		BE812D6D26438FF100A5DB45 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		BE812D722643902A00A5DB45 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
@@ -156,9 +164,20 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		BE5B86F2264514A500A55723 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BE5B86F92645151A00A55723 /* CPulsTest.cpp */,
+				BE5B86FA2645151A00A55723 /* CPulsTest.hpp */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		BE6071F6263271FD00042B82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE5B86F3264514CE00A55723 /* CTest.h */,
+				BE5B86F4264514CE00A55723 /* CTest.c */,
 				BE31D0AF261D5EE400537DB7 /* Info.plist */,
 				BE31D0AE261D5EE400537DB7 /* TestSDK.h */,
 				BE31D142261D6BBB00537DB7 /* module.modulemap */,
@@ -170,6 +189,7 @@
 		BE812D6926438F2A00A5DB45 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				BE5B86F2264514A500A55723 /* C */,
 				BE22A822264397F800B6C904 /* Tool */,
 				BE31D14C261D840A00537DB7 /* OC */,
 				BE31D108261D613C00537DB7 /* Home */,
@@ -217,7 +237,9 @@
 				BE22A8442643CFBD00B6C904 /* TestKit.swift in Headers */,
 				BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */,
 				BE812D6E26438FF100A5DB45 /* Animal.h in Headers */,
+				BE5B86F5264514CE00A55723 /* CTest.h in Headers */,
 				BE22A83F2643CFA400B6C904 /* HomeVC.swift in Headers */,
+				BE5B86FC2645151A00A55723 /* CPulsTest.hpp in Headers */,
 				BE22A8C72643DF6900B6C904 /* Test.h in Headers */,
 				BE812D7B2643918A00A5DB45 /* Labrador.h in Headers */,
 				BE31D15D261D896300537DB7 /* Cat.h in Headers */,
@@ -320,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5B86F6264514CE00A55723 /* CTest.c in Sources */,
 				BE31D15E261D896300537DB7 /* Cat.m in Sources */,
 				BE22A8C82643DF6900B6C904 /* Test.m in Sources */,
 				BE812D6F26438FF100A5DB45 /* Animal.m in Sources */,
@@ -328,6 +351,7 @@
 				BE812D7C2643918A00A5DB45 /* Labrador.m in Sources */,
 				BE22A8322643A1AE00B6C904 /* HomeVC.swift in Sources */,
 				BE812D752643902A00A5DB45 /* Dog.m in Sources */,
+				BE5B86FB2645151A00A55723 /* CPulsTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,12 +504,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaisa.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/TestSDK/";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/TestSDK";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -516,12 +542,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaisa.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/TestSDK/";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/TestSDK";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

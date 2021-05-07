@@ -8,7 +8,8 @@
 import UIKit
 import MBProgressHUD
 import SnapKit
-import OCCode
+import OtherFile
+
 class HomeVC: UIViewController {
 
     override func viewDidLoad() {

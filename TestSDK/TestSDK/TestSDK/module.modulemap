@@ -5,7 +5,7 @@
 //  Created by testuser on 2021/4/7.
 //
 
-module OCCode [system] {
+module OtherFile {
     //由于module.modulemap和Test.h是在同一个文件夹的，如果不是同一个，路径要写全
 
     header "SourceCode/Test.h"
@@ -34,14 +34,4 @@ module OCCode [system] {
         umbrella "SourceCode/OC/Dog/LargeDog"
         module * { export * }
     }
-
-
 }
-
-
-//framework module ATAuthSDK {
-//  umbrella header "ATAuthSDK.h"
-//
-//  export *
-//  module * { export * }
-//}

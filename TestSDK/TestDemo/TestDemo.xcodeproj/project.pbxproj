@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		0928A74429388A358E6DA51E /* Pods_CommonPods_TestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F85C033C5E3B4361ED18E6 /* Pods_CommonPods_TestDemo.framework */; };
 		BE22A83C2643C61600B6C904 /* JZYAVAudioRecorderManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22A83B2643C61600B6C904 /* JZYAVAudioRecorderManagement.swift */; };
-		BE22A85C2643D62300B6C904 /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE22A85A2643D60200B6C904 /* TestSDK.framework */; };
-		BE22A85D2643D62300B6C904 /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE22A85A2643D60200B6C904 /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE31D0EC261D5FAE00537DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31D0EB261D5FAE00537DB7 /* AppDelegate.swift */; };
 		BE31D0EE261D5FAE00537DB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31D0ED261D5FAE00537DB7 /* SceneDelegate.swift */; };
 		BE31D0F0261D5FAE00537DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31D0EF261D5FAE00537DB7 /* ViewController.swift */; };
 		BE31D0F3261D5FAE00537DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F1261D5FAE00537DB7 /* Main.storyboard */; };
 		BE31D0F5261D5FB000537DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F4261D5FB000537DB7 /* Assets.xcassets */; };
 		BE31D0F8261D5FB000537DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F6261D5FB000537DB7 /* LaunchScreen.storyboard */; };
+		BE5B872A26451DF500A55723 /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5B872926451DF500A55723 /* TestSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BE22A85D2643D62300B6C904 /* TestSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +36,6 @@
 		46F85C033C5E3B4361ED18E6 /* Pods_CommonPods_TestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_TestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		517FE9468501B599911B51B8 /* Pods-CommonPods-TestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-TestDemo.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-TestDemo/Pods-CommonPods-TestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BE22A83B2643C61600B6C904 /* JZYAVAudioRecorderManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYAVAudioRecorderManagement.swift; sourceTree = "<group>"; };
-		BE22A85A2643D60200B6C904 /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestSDK.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-cciorrvqiqjfyidzbixhrzaqniwh/Build/Products/Debug-iphoneos/TestSDK.framework"; sourceTree = "<group>"; };
 		BE31D0E8261D5FAE00537DB7 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE31D0EB261D5FAE00537DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE31D0ED261D5FAE00537DB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +44,7 @@
 		BE31D0F4261D5FB000537DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE31D0F7261D5FB000537DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE31D0F9261D5FB000537DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5B872926451DF500A55723 /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928A74429388A358E6DA51E /* Pods_CommonPods_TestDemo.framework in Frameworks */,
-				BE22A85C2643D62300B6C904 /* TestSDK.framework in Frameworks */,
+				BE5B872A26451DF500A55723 /* TestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +73,7 @@
 		BE22A8522643D11600B6C904 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				BE22A85A2643D60200B6C904 /* TestSDK.framework */,
+				BE5B872926451DF500A55723 /* TestSDK.framework */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
