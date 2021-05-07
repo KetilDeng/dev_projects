@@ -1,0 +1,28 @@
+PODS:
+  - JCore (2.4.0)
+  - JPush (3.4.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - MBProgressHUD (1.1.0)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - JPush
+  - MBProgressHUD (= 1.1.0)
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JPush
+    - MBProgressHUD
+    - SnapKit
+
+SPEC CHECKSUMS:
+  JCore: a29e4b0ee54e1301446dc02d8e1c350404108b34
+  JPush: defaa108c38806f6efdcfaf4c416854d25fca8e5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: f08c5d275a412f75c8e404e913485e3d1e299e68
+
+COCOAPODS: 1.9.3

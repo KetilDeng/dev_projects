@@ -1,0 +1,34 @@
+workspace 'TestSDK.xcworkspace'
+project 'TestSDK/TestSDK.xcodeproj'
+project 'TestDemo/TestDemo.xcodeproj'
+
+
+abstract_target 'CommonPods' do  
+    
+  #公用pods
+  use_frameworks!
+
+  # swift
+  pod 'SnapKit', '~> 4.0.0'
+  pod 'R.swift'
+
+  # oc
+  pod 'MBProgressHUD','1.1.0'
+  
+  # 极光推送 (.a 静态库)
+  pod 'JPush'
+
+  
+  ####### project分别处理 #######
+  target 'TestSDK' do
+      platform :ios, '9.0'
+      project 'TestSDK/TestSDK.xcodeproj'
+  end
+  
+  target 'TestDemo' do
+      platform :ios, '9.0'
+      project 'TestDemo/TestDemo.xcodeproj'
+  end
+  ####### project分别处理 #######
+
+end

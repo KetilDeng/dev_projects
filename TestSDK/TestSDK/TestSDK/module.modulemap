@@ -1,0 +1,47 @@
+//
+//  module.modulemap
+//  TestSDK
+//
+//  Created by testuser on 2021/4/7.
+//
+
+module OCCode [system] {
+    //由于module.modulemap和Test.h是在同一个文件夹的，如果不是同一个，路径要写全
+
+    header "SourceCode/Test.h"
+    export *
+
+    module OC {
+        export *
+        umbrella "SourceCode/OC"
+        module * { export * }
+    }
+
+    module Cat {
+        export *
+        umbrella "SourceCode/OC/Cat"
+        module * { export * }
+    }
+
+    module Dog {
+        export *
+        umbrella "SourceCode/OC/Dog"
+        module * { export * }
+    }
+
+    module LargeDog {
+        export *
+        umbrella "SourceCode/OC/Dog/LargeDog"
+        module * { export * }
+    }
+
+
+}
+
+
+//framework module ATAuthSDK {
+//  umbrella header "ATAuthSDK.h"
+//
+//  export *
+//  module * { export * }
+//}
