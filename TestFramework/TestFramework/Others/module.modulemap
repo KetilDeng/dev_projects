@@ -6,15 +6,21 @@
 //
 
 module Others {
-
-    header "../Others/OCTest.h"
+    
+    header "OCTest.h"//OCTest.h与module.modulemap同在一个目录下
+//    header "../Others/OCTest.h"//OCTest.h与module.modulemap不在一个目录下要写全路径
 //    header "../Others/Sub/Sub.h"//直接导出
     export *
+    
+    
+//    umbrella "Sub"
+//    module * { export * }
+    
 
-    //导出子模块
+    //导出子模块 引用：import Others.Sub
     module Sub {
         export *
-        umbrella "../Others/Sub"
+        umbrella "Sub"
         link "Sub"
         module * { export * }
     }

@@ -1,13 +1,13 @@
 //
-//  JZYAVAudioRecorderManagement.swift
+//  JZYRecordingManagement.swift
 //  TestDemo
 //
-//  Created by testuser on 2021/5/6.
+//  Created by testuser on 2021/5/8.
 //
 
 import Foundation
 import AVFoundation
-class JZYAVAudioRecorderManagement {
+class JZYRecordingManagement {
     var recorder: AVAudioRecorder?
     var player: AVAudioPlayer?
     var session:AVAudioSession = AVAudioSession.sharedInstance()

@@ -10,7 +10,7 @@ import TestSDK
 
 class ViewController: UIViewController {
     /// 录音管理
-    let recorderManagement = JZYAVAudioRecorderManagement()
+    let recorderManagement = JZYRecordingManagement()
     ///用于判断当前是开始录音还是完成录音
     var type:Bool = true
     ///界面上的一个按钮-开始录音和完成录音，同一个按钮
