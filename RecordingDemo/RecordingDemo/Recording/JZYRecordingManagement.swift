@@ -7,14 +7,18 @@
 
 import Foundation
 import AVFoundation
-class JZYRecordingManagement {
-    var recorder: AVAudioRecorder?
-    var player: AVAudioPlayer?
-    var session:AVAudioSession = AVAudioSession.sharedInstance()
 
+class JZYRecordingManagement {
+    /// 录音器
+    var recorder: AVAudioRecorder?
+    /// 播放器
+    var player: AVAudioPlayer?
+    /// 音频管理器
+    var session:AVAudioSession = AVAudioSession.sharedInstance()
     /// 设置保存地址
     var filePath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first?.appending("/record.aac")
     
+    //MARK: - Public
     //开始录音
     func beginRecord() {
         //设置session类型
@@ -39,7 +43,7 @@ class JZYRecordingManagement {
         ];
         //开始录音
         do {
-            let url = URL(fileURLWithPath: filePath!)
+            let url = URL(fileURLWithPath: filePath ?? "")
             recorder = try AVAudioRecorder(url: url, settings: recordSetting)
             recorder?.isMeteringEnabled = true
             recorder?.prepareToRecord()
@@ -50,13 +54,12 @@ class JZYRecordingManagement {
         }
     }
     
-    //结束录音
+    /// 结束录音
     func stopRecord() {
         if let recorder = self.recorder {
             if recorder.isRecording {
-                print("正在录音，马 上结束它，文件保存到了：\(filePath!)")
+                print("正在录音，马上结束它，文件保存到了：\(filePath ?? "")")
                 let _ = fileSize()
-
             }else {
                 print("没有录音，但是依然结束它")
             }
@@ -67,37 +70,46 @@ class JZYRecordingManagement {
         }
     }
     
-    //播放
+    /// 播放
     func play() {
         //设置外放模式，不然录音会用听筒模式播放，就很小声
         if session.category != AVAudioSession.Category.playback {
-            do{
+            do {
                 try session.setCategory(AVAudioSession.Category.playback)
-            } catch{
+            } catch {
                 print("外放模式设置失败")
             }
         }
         do {
-            player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: filePath!))
-            print("歌曲长度：\(player!.duration)")
-            player!.play()
+            player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: filePath ?? ""))
+            print("音频时长：\(player?.duration ?? 0)")
+            player?.play()
         } catch let err {
             print("播放失败:\(err.localizedDescription)")
         }
     }
     
-    //计算文件大小
+    /// 停止播放
+    func stop() {
+        if let palyerValue = player {
+            if palyerValue.isPlaying {
+                palyerValue.stop()
+            }
+        }
+    }
+    
+    /// 计算文件大小
     func fileSize() -> UInt64 {
         var fileSize : UInt64 = 0
         do {
             let attr = try FileManager.default.attributesOfItem(atPath: filePath ?? "")
-           fileSize = attr[FileAttributeKey.size] as! UInt64
+            fileSize = attr[FileAttributeKey.size] as! UInt64
             
-           let dict = attr as NSDictionary
-           fileSize = dict.fileSize()
+            let dict = attr as NSDictionary
+            fileSize = dict.fileSize()
             print("文件大小：\(Double(fileSize)/1024.0/1024.0) M")
-        } catch {
-          print("文件大小Error: \(error)")
+        } catch let err {
+            print("文件大小Error: \(err)")
         }
         return fileSize
     }

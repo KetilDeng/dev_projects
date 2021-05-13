@@ -1,28 +1,26 @@
 //
 //  AppDelegate.swift
-//  TestDemo
+//  RecordingDemo
 //
-//  Created by testuser on 2021/4/7.
+//  Created by testuser on 2021/5/11.
 //
 
 import UIKit
-//import TestSDK
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+
     var window: UIWindow?
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-//        TestKit.share.initTestKit(launchOptions: launchOptions)
-        
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "rootTabbarVC") as! UITabBarController
-        self.window?.rootViewController = viewController
-        self.window?.backgroundColor = .white
-        self.window?.makeKeyAndVisible()
+        // Override point for customization after application launch.
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//
+//        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+//        let viewController = storyboard.instantiateViewController(withIdentifier: "rootTabbarVC") as! UITabBarController
+//        self.window?.rootViewController = viewController
+//        self.window?.backgroundColor = .white
+//        self.window?.makeKeyAndVisible()
         return true
     }
 

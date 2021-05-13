@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+def common_pods
+   pod 'SnapKit'
+end
+target 'RecordingDemo' do
+   use_frameworks!
+   common_pods
+end

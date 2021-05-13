@@ -1,0 +1,6 @@
+framework module Pods_RecordingDemo {
+  umbrella header "Pods-RecordingDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
