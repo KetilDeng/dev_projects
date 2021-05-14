@@ -1,6 +1,8 @@
 platform :ios, '9.0'
 def common_pods
    pod 'SnapKit'
+   pod 'CocoaLumberjack'
+#   pod 'ReactiveObjC'
 end
 target 'RecordingDemo' do
    use_frameworks!
