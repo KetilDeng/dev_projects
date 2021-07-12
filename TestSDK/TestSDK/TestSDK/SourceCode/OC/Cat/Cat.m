@@ -9,8 +9,4 @@
 
 @implementation Cat
 
-+ (void)cat {
-    NSLog(@"cat-cat-cat");
-}
-
 @end

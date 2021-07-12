@@ -7,21 +7,21 @@
 
 import UIKit
 
-public class TestKit {
+@objc public class TestKit: NSObject {
     
-    public init() {
-        
+    public override init() {
+
     }
-    public static let share = TestKit()
+    @objc public static let share = TestKit()
     
     //APP启动初始化
-    public func initTestKit(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+    @objc public func initTestKit(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         ///初始化相关
         sdk_print("TestSDK初始化成功")
     }
     
     //获取一个控制器
-    public func getHomeVC() -> UIViewController {
+    @objc public func getHomeVC() -> UIViewController {
         sdk_print("获取首页")
         let vc = HomeVC()
         return vc

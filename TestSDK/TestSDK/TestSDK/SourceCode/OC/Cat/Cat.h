@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Cat : Animal
 
-+ (void)cat;
-
 @end
 
 NS_ASSUME_NONNULL_END

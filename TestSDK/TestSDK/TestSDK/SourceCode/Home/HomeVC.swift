@@ -16,7 +16,7 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         let button = UIButton()
-        button.setTitle("添加朋友", for: .normal)
+        button.setTitle("show HUB", for: .normal)
         button.setTitleColor(.red, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         button.addTarget(self, action: #selector(click(button:)), for: .touchUpInside)
@@ -27,10 +27,11 @@ class HomeVC: UIViewController {
             make.center.equalToSuperview()
         }
         
-
         Dog.who()
         Cat.who()
         Labrador.who()
+        let la = Labrador()
+        la.labrador()
     }
     @objc func click(button: UIButton) {
         MBProgressHUD.showAdded(to: self.view, animated: true)

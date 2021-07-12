@@ -10,7 +10,7 @@
 @implementation Labrador
 
 - (void)labrador {
-    NSLog(@"---我是拉布拉多");
+    NSLog(@"---拉布拉多上线中...");
 }
 
 @end

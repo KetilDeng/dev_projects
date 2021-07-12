@@ -1,0 +1,6 @@
+framework module Pods_CommonPods_OCTestDemo {
+  umbrella header "Pods-CommonPods-OCTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

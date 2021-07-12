@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Dog : Animal
 
-+ (void)dog;
-
 @end
 
 NS_ASSUME_NONNULL_END

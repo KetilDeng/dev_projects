@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <TestSDK/TestSDK-Swift.h>
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[TestKit share] initTestKitWithLaunchOptions:launchOptions];
+
     return YES;
 }
 
