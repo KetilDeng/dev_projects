@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func go(_ sender: Any) {
-        let vc = TestKit.share.getHomeVC()
+//        let vc = TestKit.share.getHomeVC()
+        let vc = TestObjKit.getHomeVC()
         vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
     }

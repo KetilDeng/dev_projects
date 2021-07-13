@@ -10,9 +10,9 @@ import MBProgressHUD
 import SnapKit
 import OtherFile
 
-class HomeVC: UIViewController {
+public class HomeVC: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         let button = UIButton()

@@ -30,6 +30,8 @@
 		BE812D752643902A00A5DB45 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BE812D732643902A00A5DB45 /* Dog.m */; };
 		BE812D7B2643918A00A5DB45 /* Labrador.h in Headers */ = {isa = PBXBuildFile; fileRef = BE812D792643918A00A5DB45 /* Labrador.h */; };
 		BE812D7C2643918A00A5DB45 /* Labrador.m in Sources */ = {isa = PBXBuildFile; fileRef = BE812D7A2643918A00A5DB45 /* Labrador.m */; };
+		BEC54BBE269D9F1A00D3F356 /* TestObjKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC54BBF269D9F1A00D3F356 /* TestObjKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		BE812D732643902A00A5DB45 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		BE812D792643918A00A5DB45 /* Labrador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Labrador.h; sourceTree = "<group>"; };
 		BE812D7A2643918A00A5DB45 /* Labrador.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labrador.m; sourceTree = "<group>"; };
+		BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObjKit.h; sourceTree = "<group>"; };
+		BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObjKit.m; sourceTree = "<group>"; };
 		EB7ECB760D34A5FD3C5BC8ED /* Pods-CommonPods-TestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-TestSDK.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-TestSDK/Pods-CommonPods-TestSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +186,8 @@
 				BE31D0AE261D5EE400537DB7 /* TestSDK.h */,
 				BE31D142261D6BBB00537DB7 /* module.modulemap */,
 				BE22A8342643A2C600B6C904 /* TestKit.swift */,
+				BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */,
+				BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			files = (
 				BE22A8442643CFBD00B6C904 /* TestKit.swift in Headers */,
 				BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */,
+				BEC54BBE269D9F1A00D3F356 /* TestObjKit.h in Headers */,
 				BE812D6E26438FF100A5DB45 /* Animal.h in Headers */,
 				BE5B86F5264514CE00A55723 /* CTest.h in Headers */,
 				BE22A83F2643CFA400B6C904 /* HomeVC.swift in Headers */,
@@ -351,6 +358,7 @@
 				BE812D7C2643918A00A5DB45 /* Labrador.m in Sources */,
 				BE22A8322643A1AE00B6C904 /* HomeVC.swift in Sources */,
 				BE812D752643902A00A5DB45 /* Dog.m in Sources */,
+				BEC54BBF269D9F1A00D3F356 /* TestObjKit.m in Sources */,
 				BE5B86FB2645151A00A55723 /* CPulsTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
