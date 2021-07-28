@@ -15,18 +15,18 @@
 		BE31D135261D691F00537DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE31D134261D691F00537DB7 /* Assets.xcassets */; };
 		BE31D138261D691F00537DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D136261D691F00537DB7 /* LaunchScreen.storyboard */; };
 		BE31D13B261D691F00537DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31D13A261D691F00537DB7 /* main.m */; };
-		BE73C7CA269C3C6900BA181A /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE73C7C6269C2B8A00BA181A /* TestSDK.framework */; };
-		BE73C7CB269C3C6900BA181A /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE73C7C6269C2B8A00BA181A /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEDA232726B13D8F001E279A /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA232326B13D83001E279A /* TestSDK.framework */; };
+		BEDA232826B13D8F001E279A /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA232326B13D83001E279A /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BE73C7CC269C3C6900BA181A /* Embed Frameworks */ = {
+		BEDA232926B13D8F001E279A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BE73C7CB269C3C6900BA181A /* TestSDK.framework in Embed Frameworks */,
+				BEDA232826B13D8F001E279A /* TestSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +49,7 @@
 		BE31D139261D691F00537DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE31D13A261D691F00537DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE73C7C6269C2B8A00BA181A /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDA232326B13D83001E279A /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
 		C4E9B53A4CBE5ABF084CF63E /* Pods-CommonPods-OCTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-OCTestDemo.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-OCTestDemo/Pods-CommonPods-OCTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9867BB824516F5319F4E19 /* Pods_CommonPods_OCTestDemo.framework in Frameworks */,
-				BE73C7CA269C3C6900BA181A /* TestSDK.framework in Frameworks */,
+				BEDA232726B13D8F001E279A /* TestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +97,7 @@
 		BE31D127261D691C00537DB7 /* OCTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEDA232326B13D83001E279A /* TestSDK.framework */,
 				BE31D128261D691C00537DB7 /* AppDelegate.h */,
 				BE31D129261D691C00537DB7 /* AppDelegate.m */,
 				BE31D12B261D691C00537DB7 /* SceneDelegate.h */,
@@ -132,7 +134,7 @@
 				BE31D122261D691C00537DB7 /* Frameworks */,
 				BE31D123261D691C00537DB7 /* Resources */,
 				F9B25C540E548DECDC3C469C /* [CP] Embed Pods Frameworks */,
-				BE73C7CC269C3C6900BA181A /* Embed Frameworks */,
+				BEDA232926B13D8F001E279A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,6 +386,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCTestDemo",
+				);
 				INFOPLIST_FILE = OCTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +413,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7LPWK7MV6D;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCTestDemo",
+				);
 				INFOPLIST_FILE = OCTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

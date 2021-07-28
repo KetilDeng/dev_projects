@@ -7,11 +7,12 @@
 
 #import "TestObjKit.h"
 #import <TestSDK/TestSDK-Swift.h>
-
+#import <JPush/JPUSHService.h>
 @implementation TestObjKit
 
 + (void)initKit {
     NSLog(@"SDK初始化");
+    [JPUSHService setupWithOption:@{} appKey:@"" channel:@"" apsForProduction:false];
 }
 
 + (UIViewController *)getHomeVC {

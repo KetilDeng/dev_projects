@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0928A74429388A358E6DA51E /* Pods_CommonPods_TestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F85C033C5E3B4361ED18E6 /* Pods_CommonPods_TestDemo.framework */; };
+		0928A74429388A358E6DA51E /* Pods_CommonPods_TestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F85C033C5E3B4361ED18E6 /* Pods_CommonPods_TestDemo.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BE1E2A58264A52F60096DBEB /* JZYSpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E2A57264A52F60096DBEB /* JZYSpectrumView.swift */; };
 		BE31D0EC261D5FAE00537DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31D0EB261D5FAE00537DB7 /* AppDelegate.swift */; };
 		BE31D0EE261D5FAE00537DB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31D0ED261D5FAE00537DB7 /* SceneDelegate.swift */; };
@@ -15,19 +15,19 @@
 		BE31D0F3261D5FAE00537DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F1261D5FAE00537DB7 /* Main.storyboard */; };
 		BE31D0F5261D5FB000537DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F4261D5FB000537DB7 /* Assets.xcassets */; };
 		BE31D0F8261D5FB000537DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F6261D5FB000537DB7 /* LaunchScreen.storyboard */; };
-		BE73C7C3269C28F100BA181A /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE73C7C2269C28F100BA181A /* TestSDK.framework */; };
-		BE73C7C4269C28F100BA181A /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE73C7C2269C28F100BA181A /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BED778C726466EAA001986D1 /* JZYRecordingManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED778C626466EAA001986D1 /* JZYRecordingManagement.swift */; };
+		BEDA231526B138E6001E279A /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE73C7C2269C28F100BA181A /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEDA232B26B13FDE001E279A /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA232A26B13FDE001E279A /* TestSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BE22A8582643D31600B6C904 /* Embed Frameworks */ = {
+		BEDA231626B138E6001E279A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BE73C7C4269C28F100BA181A /* TestSDK.framework in Embed Frameworks */,
+				BEDA231526B138E6001E279A /* TestSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +49,7 @@
 		BE31D0F9261D5FB000537DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE73C7C2269C28F100BA181A /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED778C626466EAA001986D1 /* JZYRecordingManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYRecordingManagement.swift; sourceTree = "<group>"; };
+		BEDA232A26B13FDE001E279A /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestSDK.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-dedocljeraqkjxewbtusolavhwjl/Build/Products/Debug-iphonesimulator/TestSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928A74429388A358E6DA51E /* Pods_CommonPods_TestDemo.framework in Frameworks */,
-				BE73C7C3269C28F100BA181A /* TestSDK.framework in Frameworks */,
+				BEDA232B26B13FDE001E279A /* TestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +96,7 @@
 		BE31D0EA261D5FAE00537DB7 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEDA232A26B13FDE001E279A /* TestSDK.framework */,
 				BE31D0EB261D5FAE00537DB7 /* AppDelegate.swift */,
 				BE31D0ED261D5FAE00537DB7 /* SceneDelegate.swift */,
 				BE31D0EF261D5FAE00537DB7 /* ViewController.swift */,
@@ -129,7 +131,7 @@
 				BE31D0E5261D5FAE00537DB7 /* Frameworks */,
 				BE31D0E6261D5FAE00537DB7 /* Resources */,
 				A06C56FC7F480AE9E0794DC0 /* [CP] Embed Pods Frameworks */,
-				BE22A8582643D31600B6C904 /* Embed Frameworks */,
+				BEDA231626B138E6001E279A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

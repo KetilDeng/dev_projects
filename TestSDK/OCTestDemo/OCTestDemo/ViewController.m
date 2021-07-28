@@ -6,8 +6,8 @@
 //
 
 #import "ViewController.h"
-#import <TestSDK/TestSDK-Swift.h>
 
+//#import <TestSDK/TestObjKit.h>
 @interface ViewController ()
 
 @end
@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"-----[ViewController viewDidLoad]");
-    [[TestKit share] getHomeVC];
+    
+//    UIViewController *vc = [TestObjKit getHomeVC];
     
 }
 
