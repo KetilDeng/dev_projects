@@ -16,7 +16,7 @@
 		BE22A8C72643DF6900B6C904 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = BE22A8C52643DF6900B6C904 /* Test.h */; };
 		BE22A8C82643DF6900B6C904 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE22A8C62643DF6900B6C904 /* Test.m */; };
 		BE2478D426315BB90065DF28 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE2478D326315BB90065DF28 /* Resource.bundle */; };
-		BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31D0AE261D5EE400537DB7 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31D0AE261D5EE400537DB7 /* TestSDK.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BE31D15D261D896300537DB7 /* Cat.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31D15B261D896300537DB7 /* Cat.h */; };
 		BE31D15E261D896300537DB7 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31D15C261D896300537DB7 /* Cat.m */; };
 		BE3CE6B7262D7B660085AD29 /* ATAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3CE6B6262D7B660085AD29 /* ATAuthSDK.framework */; };
@@ -241,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE22A8442643CFBD00B6C904 /* TestKit.swift in Headers */,
-				BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */,
 				BEC54BBE269D9F1A00D3F356 /* TestObjKit.h in Headers */,
+				BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */,
 				BE812D6E26438FF100A5DB45 /* Animal.h in Headers */,
 				BE5B86F5264514CE00A55723 /* CTest.h in Headers */,
 				BE22A83F2643CFA400B6C904 /* HomeVC.swift in Headers */,
