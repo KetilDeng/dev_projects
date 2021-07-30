@@ -15,9 +15,9 @@
 		BE31D0F3261D5FAE00537DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F1261D5FAE00537DB7 /* Main.storyboard */; };
 		BE31D0F5261D5FB000537DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F4261D5FB000537DB7 /* Assets.xcassets */; };
 		BE31D0F8261D5FB000537DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE31D0F6261D5FB000537DB7 /* LaunchScreen.storyboard */; };
+		BE4C706326B2AC2A006F196C /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4C706126B2AC12006F196C /* TestSDK.framework */; };
+		BE4C706426B2AC2A006F196C /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE4C706126B2AC12006F196C /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BED778C726466EAA001986D1 /* JZYRecordingManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED778C626466EAA001986D1 /* JZYRecordingManagement.swift */; };
-		BEDA231526B138E6001E279A /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE73C7C2269C28F100BA181A /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BEDA232B26B13FDE001E279A /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA232A26B13FDE001E279A /* TestSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BEDA231526B138E6001E279A /* TestSDK.framework in Embed Frameworks */,
+				BE4C706426B2AC2A006F196C /* TestSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,9 +47,8 @@
 		BE31D0F4261D5FB000537DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE31D0F7261D5FB000537DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE31D0F9261D5FB000537DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE73C7C2269C28F100BA181A /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4C706126B2AC12006F196C /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
 		BED778C626466EAA001986D1 /* JZYRecordingManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYRecordingManagement.swift; sourceTree = "<group>"; };
-		BEDA232A26B13FDE001E279A /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestSDK.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-dedocljeraqkjxewbtusolavhwjl/Build/Products/Debug-iphonesimulator/TestSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0928A74429388A358E6DA51E /* Pods_CommonPods_TestDemo.framework in Frameworks */,
-				BEDA232B26B13FDE001E279A /* TestSDK.framework in Frameworks */,
+				BE4C706326B2AC2A006F196C /* TestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +95,7 @@
 		BE31D0EA261D5FAE00537DB7 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BEDA232A26B13FDE001E279A /* TestSDK.framework */,
+				BE4C706126B2AC12006F196C /* TestSDK.framework */,
 				BE31D0EB261D5FAE00537DB7 /* AppDelegate.swift */,
 				BE31D0ED261D5FAE00537DB7 /* SceneDelegate.swift */,
 				BE31D0EF261D5FAE00537DB7 /* ViewController.swift */,
@@ -113,7 +112,6 @@
 		E45220A454F9B9EFFAF40A50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE73C7C2269C28F100BA181A /* TestSDK.framework */,
 				46F85C033C5E3B4361ED18E6 /* Pods_CommonPods_TestDemo.framework */,
 			);
 			name = Frameworks;
@@ -409,6 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.yinyue.iccp.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Giga_yinyue_iccp_sit_dev_Profile;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,6 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.yinyue.iccp.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Giga_yinyue_iccp_sit_adhoc_Profile;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -13,17 +13,11 @@
 		BE22A8352643A2C600B6C904 /* TestKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE22A8342643A2C600B6C904 /* TestKit.swift */; };
 		BE22A83F2643CFA400B6C904 /* HomeVC.swift in Headers */ = {isa = PBXBuildFile; fileRef = BE22A8312643A1AE00B6C904 /* HomeVC.swift */; };
 		BE22A8442643CFBD00B6C904 /* TestKit.swift in Headers */ = {isa = PBXBuildFile; fileRef = BE22A8342643A2C600B6C904 /* TestKit.swift */; };
-		BE22A8C72643DF6900B6C904 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = BE22A8C52643DF6900B6C904 /* Test.h */; };
-		BE22A8C82643DF6900B6C904 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE22A8C62643DF6900B6C904 /* Test.m */; };
 		BE2478D426315BB90065DF28 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE2478D326315BB90065DF28 /* Resource.bundle */; };
 		BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31D0AE261D5EE400537DB7 /* TestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE31D15D261D896300537DB7 /* Cat.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31D15B261D896300537DB7 /* Cat.h */; };
 		BE31D15E261D896300537DB7 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31D15C261D896300537DB7 /* Cat.m */; };
 		BE3CE6B7262D7B660085AD29 /* ATAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3CE6B6262D7B660085AD29 /* ATAuthSDK.framework */; };
-		BE5B86F5264514CE00A55723 /* CTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5B86F3264514CE00A55723 /* CTest.h */; };
-		BE5B86F6264514CE00A55723 /* CTest.c in Sources */ = {isa = PBXBuildFile; fileRef = BE5B86F4264514CE00A55723 /* CTest.c */; };
-		BE5B86FB2645151A00A55723 /* CPulsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE5B86F92645151A00A55723 /* CPulsTest.cpp */; };
-		BE5B86FC2645151A00A55723 /* CPulsTest.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BE5B86FA2645151A00A55723 /* CPulsTest.hpp */; };
 		BE812D6E26438FF100A5DB45 /* Animal.h in Headers */ = {isa = PBXBuildFile; fileRef = BE812D6C26438FF100A5DB45 /* Animal.h */; };
 		BE812D6F26438FF100A5DB45 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = BE812D6D26438FF100A5DB45 /* Animal.m */; };
 		BE812D742643902A00A5DB45 /* Dog.h in Headers */ = {isa = PBXBuildFile; fileRef = BE812D722643902A00A5DB45 /* Dog.h */; };
@@ -32,6 +26,12 @@
 		BE812D7C2643918A00A5DB45 /* Labrador.m in Sources */ = {isa = PBXBuildFile; fileRef = BE812D7A2643918A00A5DB45 /* Labrador.m */; };
 		BEC54BBE269D9F1A00D3F356 /* TestObjKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC54BBF269D9F1A00D3F356 /* TestObjKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */; };
+		BEDB38A026B3D993008C5C4C /* CPulsTest.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BEDB389A26B3D993008C5C4C /* CPulsTest.hpp */; };
+		BEDB38A126B3D993008C5C4C /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDB389B26B3D993008C5C4C /* Test.h */; };
+		BEDB38A226B3D993008C5C4C /* CTest.c in Sources */ = {isa = PBXBuildFile; fileRef = BEDB389C26B3D993008C5C4C /* CTest.c */; };
+		BEDB38A326B3D993008C5C4C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDB389D26B3D993008C5C4C /* Test.m */; };
+		BEDB38A426B3D993008C5C4C /* CPulsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEDB389E26B3D993008C5C4C /* CPulsTest.cpp */; };
+		BEDB38A526B3D993008C5C4C /* CTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDB389F26B3D993008C5C4C /* CTest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +40,6 @@
 		BE22A8232643983800B6C904 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		BE22A8312643A1AE00B6C904 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BE22A8342643A2C600B6C904 /* TestKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKit.swift; sourceTree = "<group>"; };
-		BE22A8C52643DF6900B6C904 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		BE22A8C62643DF6900B6C904 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		BE2478D326315BB90065DF28 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		BE31D0AB261D5EE400537DB7 /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE31D0AE261D5EE400537DB7 /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
@@ -50,10 +48,6 @@
 		BE31D15B261D896300537DB7 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		BE31D15C261D896300537DB7 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		BE3CE6B6262D7B660085AD29 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ATAuthSDK.framework; sourceTree = "<group>"; };
-		BE5B86F3264514CE00A55723 /* CTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTest.h; sourceTree = "<group>"; };
-		BE5B86F4264514CE00A55723 /* CTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CTest.c; sourceTree = "<group>"; };
-		BE5B86F92645151A00A55723 /* CPulsTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPulsTest.cpp; sourceTree = "<group>"; };
-		BE5B86FA2645151A00A55723 /* CPulsTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPulsTest.hpp; sourceTree = "<group>"; };
 		BE812D6C26438FF100A5DB45 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		BE812D6D26438FF100A5DB45 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		BE812D722643902A00A5DB45 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
@@ -62,6 +56,12 @@
 		BE812D7A2643918A00A5DB45 /* Labrador.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labrador.m; sourceTree = "<group>"; };
 		BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObjKit.h; sourceTree = "<group>"; };
 		BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObjKit.m; sourceTree = "<group>"; };
+		BEDB389A26B3D993008C5C4C /* CPulsTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CPulsTest.hpp; sourceTree = "<group>"; };
+		BEDB389B26B3D993008C5C4C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		BEDB389C26B3D993008C5C4C /* CTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CTest.c; sourceTree = "<group>"; };
+		BEDB389D26B3D993008C5C4C /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		BEDB389E26B3D993008C5C4C /* CPulsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPulsTest.cpp; sourceTree = "<group>"; };
+		BEDB389F26B3D993008C5C4C /* CTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTest.h; sourceTree = "<group>"; };
 		EB7ECB760D34A5FD3C5BC8ED /* Pods-CommonPods-TestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-TestSDK.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-TestSDK/Pods-CommonPods-TestSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,14 +96,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE22A822264397F800B6C904 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				BE22A8232643983800B6C904 /* Tool.swift */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
 		BE31D0A1261D5EE400537DB7 = {
 			isa = PBXGroup;
 			children = (
@@ -133,14 +125,6 @@
 			path = TestSDK;
 			sourceTree = "<group>";
 		};
-		BE31D108261D613C00537DB7 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				BE22A8312643A1AE00B6C904 /* HomeVC.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		BE31D14C261D840A00537DB7 /* OC */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,26 +152,12 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
-		BE5B86F2264514A500A55723 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				BE5B86F92645151A00A55723 /* CPulsTest.cpp */,
-				BE5B86FA2645151A00A55723 /* CPulsTest.hpp */,
-			);
-			path = C;
-			sourceTree = "<group>";
-		};
 		BE6071F6263271FD00042B82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE5B86F3264514CE00A55723 /* CTest.h */,
-				BE5B86F4264514CE00A55723 /* CTest.c */,
 				BE31D0AF261D5EE400537DB7 /* Info.plist */,
 				BE31D0AE261D5EE400537DB7 /* TestSDK.h */,
 				BE31D142261D6BBB00537DB7 /* module.modulemap */,
-				BE22A8342643A2C600B6C904 /* TestKit.swift */,
-				BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */,
-				BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -195,12 +165,13 @@
 		BE812D6926438F2A00A5DB45 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				BE5B86F2264514A500A55723 /* C */,
-				BE22A822264397F800B6C904 /* Tool */,
+				BEDB389926B3D993008C5C4C /* C */,
 				BE31D14C261D840A00537DB7 /* OC */,
-				BE31D108261D613C00537DB7 /* Home */,
-				BE22A8C52643DF6900B6C904 /* Test.h */,
-				BE22A8C62643DF6900B6C904 /* Test.m */,
+				BE22A8232643983800B6C904 /* Tool.swift */,
+				BE22A8312643A1AE00B6C904 /* HomeVC.swift */,
+				BE22A8342643A2C600B6C904 /* TestKit.swift */,
+				BEC54BBC269D9F1A00D3F356 /* TestObjKit.h */,
+				BEC54BBD269D9F1A00D3F356 /* TestObjKit.m */,
 			);
 			path = SourceCode;
 			sourceTree = "<group>";
@@ -233,6 +204,19 @@
 			path = LargeDog;
 			sourceTree = "<group>";
 		};
+		BEDB389926B3D993008C5C4C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BEDB389A26B3D993008C5C4C /* CPulsTest.hpp */,
+				BEDB389B26B3D993008C5C4C /* Test.h */,
+				BEDB389C26B3D993008C5C4C /* CTest.c */,
+				BEDB389D26B3D993008C5C4C /* Test.m */,
+				BEDB389E26B3D993008C5C4C /* CPulsTest.cpp */,
+				BEDB389F26B3D993008C5C4C /* CTest.h */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,14 +224,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDB38A126B3D993008C5C4C /* Test.h in Headers */,
 				BEC54BBE269D9F1A00D3F356 /* TestObjKit.h in Headers */,
 				BE31D0B0261D5EE400537DB7 /* TestSDK.h in Headers */,
 				BE22A8442643CFBD00B6C904 /* TestKit.swift in Headers */,
 				BE812D6E26438FF100A5DB45 /* Animal.h in Headers */,
-				BE5B86F5264514CE00A55723 /* CTest.h in Headers */,
 				BE22A83F2643CFA400B6C904 /* HomeVC.swift in Headers */,
-				BE5B86FC2645151A00A55723 /* CPulsTest.hpp in Headers */,
-				BE22A8C72643DF6900B6C904 /* Test.h in Headers */,
+				BEDB38A526B3D993008C5C4C /* CTest.h in Headers */,
+				BEDB38A026B3D993008C5C4C /* CPulsTest.hpp in Headers */,
 				BE812D7B2643918A00A5DB45 /* Labrador.h in Headers */,
 				BE31D15D261D896300537DB7 /* Cat.h in Headers */,
 				BE812D742643902A00A5DB45 /* Dog.h in Headers */,
@@ -349,17 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5B86F6264514CE00A55723 /* CTest.c in Sources */,
+				BEDB38A426B3D993008C5C4C /* CPulsTest.cpp in Sources */,
+				BEDB38A226B3D993008C5C4C /* CTest.c in Sources */,
 				BE31D15E261D896300537DB7 /* Cat.m in Sources */,
-				BE22A8C82643DF6900B6C904 /* Test.m in Sources */,
 				BE812D6F26438FF100A5DB45 /* Animal.m in Sources */,
 				BE22A8242643983900B6C904 /* Tool.swift in Sources */,
 				BE22A8352643A2C600B6C904 /* TestKit.swift in Sources */,
+				BEDB38A326B3D993008C5C4C /* Test.m in Sources */,
 				BE812D7C2643918A00A5DB45 /* Labrador.m in Sources */,
 				BE22A8322643A1AE00B6C904 /* HomeVC.swift in Sources */,
 				BE812D752643902A00A5DB45 /* Dog.m in Sources */,
 				BEC54BBF269D9F1A00D3F356 /* TestObjKit.m in Sources */,
-				BE5B86FB2645151A00A55723 /* CPulsTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,9 +478,10 @@
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -515,11 +500,12 @@
 				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "";
 				MODULEMAP_PRIVATE_FILE = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaisa.TestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.budsseven.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/TestSDK";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -555,11 +541,12 @@
 				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "";
 				MODULEMAP_PRIVATE_FILE = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaisa.TestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.budsseven.TestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/TestSDK";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

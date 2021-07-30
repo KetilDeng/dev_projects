@@ -14,7 +14,8 @@
 		BEDA234026B140F2001E279A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDA233E26B140F2001E279A /* Main.storyboard */; };
 		BEDA234226B140F4001E279A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDA234126B140F4001E279A /* Assets.xcassets */; };
 		BEDA234526B140F4001E279A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDA234326B140F4001E279A /* LaunchScreen.storyboard */; };
-		BEDA235A26B16005001E279A /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDA235926B16005001E279A /* TestSDK.framework */; };
+		BEDB38B026B3DB40008C5C4C /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB38AE26B3DB3B008C5C4C /* TestSDK.framework */; };
+		BEDB38B126B3DB40008C5C4C /* TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BEDB38AE26B3DB3B008C5C4C /* TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BEDB38B126B3DB40008C5C4C /* TestSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +44,7 @@
 		BEDA234126B140F4001E279A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDA234426B140F4001E279A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEDA234626B140F4001E279A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEDA235926B16005001E279A /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
+		BEDB38AE26B3DB3B008C5C4C /* TestSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6EB23BBDBA1440B1674AF6 /* Pods_DemoForTestSDK.framework in Frameworks */,
-				BEDA235A26B16005001E279A /* TestSDK.framework in Frameworks */,
+				BEDB38B026B3DB40008C5C4C /* TestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 		BEDA233726B140F2001E279A /* DemoForTestSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BEDA235926B16005001E279A /* TestSDK.framework */,
+				BEDB38AE26B3DB3B008C5C4C /* TestSDK.framework */,
 				BEDA233826B140F2001E279A /* AppDelegate.swift */,
 				BEDA233A26B140F2001E279A /* SceneDelegate.swift */,
 				BEDA233C26B140F2001E279A /* ViewController.swift */,
@@ -373,18 +375,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoForTestSDK",
 				);
 				INFOPLIST_FILE = DemoForTestSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.budsseven.DemoForTestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.yinyue.iccp.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Giga_yinyue_iccp_sit_dev_Profile;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,18 +405,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7LPWK7MV6D;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoForTestSDK",
 				);
 				INFOPLIST_FILE = DemoForTestSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.budsseven.DemoForTestSDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.yinyue.iccp.sit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Giga_yinyue_iccp_sit_dev_Profile;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
