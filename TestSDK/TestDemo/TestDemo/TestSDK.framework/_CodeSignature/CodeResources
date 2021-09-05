@@ -4,150 +4,175 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Hello.swift</key>
+		<key>Headers/TestObjKit.h</key>
 		<data>
-		uifSqrGK7kOkeeOd5ImD6ayVxU8=
+		tPqw6kYP5UrA2BKxTf5Oz+8gikg=
 		</data>
 		<key>Headers/TestSDK-Swift.h</key>
 		<data>
-		uuIS3/s73vV8I1AaaeNgAl0wbUE=
+		MFsOUPvWM/x3JxT3kPBogj68N2U=
 		</data>
 		<key>Headers/TestSDK.h</key>
 		<data>
-		O6e7OUWrSBtrPlr7gJPETfoPCFE=
+		f3YKeDEgeXVg7yo9ZX/sbekqmtk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hYpnxZxsQ4gG0IvulPj2kt/m0hk=
+		hGIKn8Ef9fEbysru9TIqREn3WHk=
 		</data>
 		<key>Modules/TestSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		HlyBYzTg1afXsyIItbBSrJvgwH4=
+		uXkLXRZ0MJQVI/NaBFIfIW5fqlY=
 		</data>
 		<key>Modules/TestSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		HlyBYzTg1afXsyIItbBSrJvgwH4=
+		uXkLXRZ0MJQVI/NaBFIfIW5fqlY=
 		</data>
 		<key>Modules/TestSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gLkibBERzcTWV138kLHt523FnFo=
+		DezwHmRfFO02dX49mIJ1IDTGnzM=
 		</data>
 		<key>Modules/TestSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UUX9OBZ6DSdS95I4QaAr2D3ps5Q=
+		8FRQDuIkBdLE0b0dNWg3b3z497U=
 		</data>
 		<key>Modules/TestSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		gLkibBERzcTWV138kLHt523FnFo=
+		DezwHmRfFO02dX49mIJ1IDTGnzM=
 		</data>
 		<key>Modules/TestSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UUX9OBZ6DSdS95I4QaAr2D3ps5Q=
+		8FRQDuIkBdLE0b0dNWg3b3z497U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		2wgMU1iG+xvgZAksKZ551I2d9m8=
 		</data>
-	</dict>
-	<key>files2</key>
-	<dict>
-		<key>Headers/Hello.swift</key>
+		<key>Resource.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		</data>
+		<key>Resource.bundle/en.lproj/Root.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uifSqrGK7kOkeeOd5ImD6ayVxU8=
+			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resource.bundle/icon_add_friend.png</key>
+		<data>
+		cYlBjOZYBVZ2i/Pr5o8ZD2FTTco=
+		</data>
+		<key>Resource.bundle/icon_add_friend@2x.png</key>
+		<data>
+		KKdKySsCdIHn6lknXenPQyyOkA8=
+		</data>
+		<key>Resource.bundle/icon_add_friend@3x.png</key>
+		<data>
+		PpEqBW2XdynTY5gEr9+kHJjgc2M=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Headers/TestObjKit.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tPqw6kYP5UrA2BKxTf5Oz+8gikg=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVTzO3q6x58EoUGjqUFWoBoCkoLWIC0/1/92ppATzjI=
+			tJvQFmIdZJ+XHRLQdKkLl2fUpMY89C3b2YsWJMJz6Bw=
 			</data>
 		</dict>
 		<key>Headers/TestSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uuIS3/s73vV8I1AaaeNgAl0wbUE=
+			MFsOUPvWM/x3JxT3kPBogj68N2U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sio1rH1Scz4ysld03NZ+163hfsa/ox3XWOFrNnMMQ1k=
+			UEdcYlJu3pTZstLr+aEVzKzRKzfyrLkbklpePutCZgg=
 			</data>
 		</dict>
 		<key>Headers/TestSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O6e7OUWrSBtrPlr7gJPETfoPCFE=
+			f3YKeDEgeXVg7yo9ZX/sbekqmtk=
 			</data>
 			<key>hash2</key>
 			<data>
-			d+PRJotk5sRiM++2i3fWBooEA1w8gLo05MtValQqMiU=
+			OtmW3szf0q5kz/ctaWaJ+CuG42Z5OirjW+Xwy6d017Q=
 			</data>
 		</dict>
 		<key>Modules/TestSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HlyBYzTg1afXsyIItbBSrJvgwH4=
+			uXkLXRZ0MJQVI/NaBFIfIW5fqlY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2jIs0gB38EOclHINvmENioepUzsrFqtydgryYj7BhxE=
+			VUbNgJfsplVA8CqmgBcMLtJanXlDkeoGG3J9f0yxC6E=
 			</data>
 		</dict>
 		<key>Modules/TestSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HlyBYzTg1afXsyIItbBSrJvgwH4=
+			uXkLXRZ0MJQVI/NaBFIfIW5fqlY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2jIs0gB38EOclHINvmENioepUzsrFqtydgryYj7BhxE=
+			VUbNgJfsplVA8CqmgBcMLtJanXlDkeoGG3J9f0yxC6E=
 			</data>
 		</dict>
 		<key>Modules/TestSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gLkibBERzcTWV138kLHt523FnFo=
+			DezwHmRfFO02dX49mIJ1IDTGnzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TcZ6FJOx2eVVVooCsReu5zpxWlcQMeW3R6t+gVl4TDo=
+			Elmim+LdnNxyi0ZzF8sBlWjHNdqv7qewpAzIVsr12s0=
 			</data>
 		</dict>
 		<key>Modules/TestSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UUX9OBZ6DSdS95I4QaAr2D3ps5Q=
+			8FRQDuIkBdLE0b0dNWg3b3z497U=
 			</data>
 			<key>hash2</key>
 			<data>
-			vCQjkX0BSGeWtprz/hmJ6B1DkSbMF1bCGh4Vh3qO01I=
+			2p+uD9B0iE//Xso9JVHb8xEcH4/tMvDtL3p7VGOLzmo=
 			</data>
 		</dict>
 		<key>Modules/TestSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gLkibBERzcTWV138kLHt523FnFo=
+			DezwHmRfFO02dX49mIJ1IDTGnzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TcZ6FJOx2eVVVooCsReu5zpxWlcQMeW3R6t+gVl4TDo=
+			Elmim+LdnNxyi0ZzF8sBlWjHNdqv7qewpAzIVsr12s0=
 			</data>
 		</dict>
 		<key>Modules/TestSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UUX9OBZ6DSdS95I4QaAr2D3ps5Q=
+			8FRQDuIkBdLE0b0dNWg3b3z497U=
 			</data>
 			<key>hash2</key>
 			<data>
-			vCQjkX0BSGeWtprz/hmJ6B1DkSbMF1bCGh4Vh3qO01I=
+			2p+uD9B0iE//Xso9JVHb8xEcH4/tMvDtL3p7VGOLzmo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -159,6 +184,63 @@
 			<key>hash2</key>
 			<data>
 			+miHKxAtMB0HOlH4gPsJieZwxzYQkiJuFoGlIAAXu80=
+			</data>
+		</dict>
+		<key>Resource.bundle/Root.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jOhqEUF1/xyY+fuswiWT+ELC3dI=
+			</data>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			</data>
+		</dict>
+		<key>Resource.bundle/en.lproj/Root.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			xUzNd7J7w99oAnMIWGe1dAGArHMuEXwQqxSziDU5vLk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resource.bundle/icon_add_friend.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cYlBjOZYBVZ2i/Pr5o8ZD2FTTco=
+			</data>
+			<key>hash2</key>
+			<data>
+			ENnYq49Nx/2SvsmxFgTgQBj3WOgF2ZK2HWSp5b1n5bo=
+			</data>
+		</dict>
+		<key>Resource.bundle/icon_add_friend@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KKdKySsCdIHn6lknXenPQyyOkA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			uw84aWVJUlF91qjejDZHhXJS/L1HtxZ4cVX52//20sY=
+			</data>
+		</dict>
+		<key>Resource.bundle/icon_add_friend@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PpEqBW2XdynTY5gEr9+kHJjgc2M=
+			</data>
+			<key>hash2</key>
+			<data>
+			dZ+T0aUOLKIp+u/Zt5E+rggrIAoq1o4kE1rcpsbIhBY=
 			</data>
 		</dict>
 	</dict>

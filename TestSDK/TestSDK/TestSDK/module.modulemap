@@ -7,15 +7,19 @@
 
 module OtherFile {
     //由于module.modulemap和Test.h是在同一个文件夹的，如果不是同一个，路径要写全
-
-    header "SourceCode/Test.h"
-    export *
+    
+    module C {
+        export *
+        umbrella "SourceCode/C"
+        module *  {export *}
+    }
 
     module OC {
         export *
         umbrella "SourceCode/OC"
         module * { export * }
     }
+    
 
     module Cat {
         export *

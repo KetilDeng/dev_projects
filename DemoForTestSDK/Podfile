@@ -1,0 +1,18 @@
+
+target 'DemoForTestSDK' do
+
+  #公用pods
+  use_frameworks!
+
+  # swift
+  pod 'SnapKit', '4.0.1'
+
+  # oc
+  pod 'MBProgressHUD','1.1.0'
+  
+  # 极光推送 (.a 静态库)
+  pod 'JPush'
+  
+  # ATAuthSDK.framework 阿里云认证SDK手动添加
+
+end
